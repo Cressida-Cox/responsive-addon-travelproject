@@ -170,10 +170,14 @@ footer a {
 
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+    grid-gap: 16px;
   }
 
-  section {
+  .grid-2-columns {
+    padding: 30px;
+  }
+
+  footer {
     padding: 30px;
   }
 }
